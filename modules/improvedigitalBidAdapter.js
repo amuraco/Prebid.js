@@ -186,7 +186,7 @@ function getNormalizedBidRequest(bid) {
 }
 registerBidder(spec);
 
-function ImproveDigitalAdServerJSClient(endPoint) {
+export function ImproveDigitalAdServerJSClient(endPoint) {
   this.CONSTANTS = {
     HTTP_SECURITY: {
       STANDARD: 0,
@@ -415,5 +415,3 @@ function ImproveDigitalAdServerJSClient(endPoint) {
     return outputObject;
   };
 }
-
-exports.ImproveDigitalAdServerJSClient = ImproveDigitalAdServerJSClient;
